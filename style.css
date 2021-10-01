@@ -36,7 +36,7 @@ nav {
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .quadrado {
   width: 500px;
@@ -45,7 +45,7 @@ nav {
   border-radius: 500px;
   position: absolute;
   right: -80px;
-  top: 250px;
+  top: 400px;
 }
 .slogan {
   margin-top: 100px;
@@ -81,7 +81,7 @@ button:hover{
   width: 290px;
   position: absolute;
   right: 0px;
-  top: 350px;
+  top: 460px;
 }
 .instagram1 {
   float: left;
@@ -91,7 +91,7 @@ button:hover{
   font-weight: bold;
   cursor: pointer;
   outline: none; 
-  margin-top: 620px;
+  margin-top: 820px;
   margin-left: 10px;
 }
 .instagram1:hover{
