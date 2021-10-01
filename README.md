@@ -1,2 +1,2 @@
 # Marias-atelier
-https://mariasatelier.github.io/Marias-atelier/
+https://mariasatelier.github.io/Marias-atelier-inicio/
