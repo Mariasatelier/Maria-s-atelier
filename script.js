@@ -42,3 +42,7 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li",
 );
 mobileNavbar.init();
+
+function entrar() {
+ window.location.href = 'https://mariasatelier.github.io/Marias-atelier-login/' 
+}
