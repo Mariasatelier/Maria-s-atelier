@@ -1,0 +1,193 @@
+body {
+    overflow-x: hidden;
+  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: Segoe Print;
+  margin-top: 10px;  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #fff;
+  height: 8vh;
+}
+
+main {
+  background: url("bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  font-size: 20px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #000;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 75vw;
+    height: 92vh;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+.quadrado {
+  width: 500px;
+  height: 500px;
+  background: #f5dbf4;
+  border-radius: 500px;
+  position: absolute;
+  right: -80px;
+  top: 600px;
+}
+.slogan {
+  margin-top: 40px;
+  margin-left: 20px;
+ font-size: 50px; 
+  font-family: Segoe Print; 
+  width: 630px;
+}
+.sub-slogan {
+ font-size: 60px;
+    font-family: Segoe Print; 
+    margin-left: 20px;
+}
+button{
+  background-color: #ffffff;
+  border-color: #000000;
+  color: #000000;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+  margin-left: 50px;
+}
+button:hover{
+  background-color: #000000;
+  color: #fff;
+}
+.logoo {
+  width: 290px;
+  position: absolute;
+  right: 0px;
+  top: 680px;
+}
+.instagram1 {
+  float: left;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none; 
+  position: absolute;
+  top: 760px;
+  left: 0px;
+}
+.instagram1:hover{
+  background-color: #fff;
+  color: #fff;
+}
+.instagram {
+  width: 60px;
+  margin-right: 0px;
+}
+.icons {
+   background-color: transparent;
+  border-color: transparent;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none; 
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.icons:hover {
+   background-color: #f5dbf4;
+  color: #000000;
+}
