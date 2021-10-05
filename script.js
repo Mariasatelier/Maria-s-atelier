@@ -42,3 +42,7 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li",
 );
 mobileNavbar.init();
+
+function face() {
+  window.location.href = 'https://www.instagram.com/avanasande/' 
+}
