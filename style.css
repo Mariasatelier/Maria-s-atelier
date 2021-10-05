@@ -124,9 +124,8 @@ main {
 .slogan {
   margin-top: 40px;
   margin-left: 20px;
- font-size: 40px; 
+ font-size: 60px; 
   font-family: Segoe Print; 
-  width: 630px;
 }
 .sub-slogan {
  font-size: 60px;
@@ -165,9 +164,8 @@ button:hover{
   font-weight: bold;
   cursor: pointer;
   outline: none; 
-  position: absolute;
-  top: 760px;
-  left: 0px;
+ margin-top: 10px;
+  margin-left: 45px;
 }
 .instagram1:hover{
   background-color: #fff;
